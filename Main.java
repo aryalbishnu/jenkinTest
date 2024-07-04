@@ -4,6 +4,7 @@ public class Main {
     System.out.println("hi");
     System.out.println("hello");
     System.out.println("hello connect to jenkins");
+    System.out.println("hello connect");
 
   }
 }
