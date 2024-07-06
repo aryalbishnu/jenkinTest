@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('compile') {
             steps {
-                echo 'javac Main.java'
+                sh 'javac Main.java'
             }
         }
         stage('run') {
             steps {
-                echo 'java Main'
+                sh "java Main"
             }
         }
     }
